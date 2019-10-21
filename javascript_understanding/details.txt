@@ -1,0 +1,11 @@
+The global environment and global object
+
+code is run inside an execution context
+
+global eexecution context creates two things for you
+1. global object
+2. this
+
+Global means --> not inside a function
+
+when you craete vars and functions that are not inside another functions, they get attached to the window object
