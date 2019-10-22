@@ -9,3 +9,22 @@ global eexecution context creates two things for you
 Global means --> not inside a function
 
 when you craete vars and functions that are not inside another functions, they get attached to the window object
+
+hoisting:
+--------
+
+The variables and functions are available no matter where they are craeted inside a javascript file.
+
+execution context is created and then executed:
+
+when the program is run the vars and funcs are already there. 
+all variables in javascript are initially created as undefined. during execution phase
+
+setup memory space for variables and functions - hoisting.
+-------------
+
+declaring a variable without assigning anything makes it undefined. undefined is a special value that is set.
+
+var a;
+console.log(a) ----> undefined
+a === undefined
